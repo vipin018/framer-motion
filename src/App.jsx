@@ -4,12 +4,23 @@ const App = () => {
 
   return (
     <div>
-      <motion.div  className='container'
-      animate={{
-        x:100,
-      }}
+      <motion.div
+        className='container'
+        initial={{
+         x:100,
+         rotate:0,
+        }}
+        animate={{
+          x: 700,
+          rotate:180,
+          ease:'anticipate',
+        }}
+        transition={{
+          duration:1,
+          delay:1,
+          repeat:Infinity,
+        }}
       >
-
       </motion.div>
     </div>
   )

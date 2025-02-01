@@ -20,3 +20,17 @@ color: #fff;
   border-radius: 1rem;
   border: 1px solid #222;
 }
+
+.text-center{
+  height: 50px;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 3rem;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
